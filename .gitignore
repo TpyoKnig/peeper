@@ -1,0 +1,10 @@
+# secrets
+.env
+.env.local
+gateway/devices.json
+# build output and deps
+node_modules/
+dist/
+dist-public/
+*.ehpk
+.DS_Store

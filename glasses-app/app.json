@@ -1,0 +1,18 @@
+{
+  "package_id": "com.example.peeper",
+  "edition": "202601",
+  "name": "nod",
+  "version": "0.1.0",
+  "min_app_version": "2.2.10",
+  "min_sdk_version": "0.0.16",
+  "entrypoint": "index.html",
+  "permissions": [
+    { "name": "g2-microphone", "desc": "Records your voice while you hold or tap the temple, to send to your nod assistant." },
+    {
+      "name": "network",
+      "desc": "Talks to your own nod assistant through your glasses gateway.",
+      "whitelist": ["http://192.168.1.10:8787"]
+    }
+  ],
+  "supported_languages": ["en"]
+}
